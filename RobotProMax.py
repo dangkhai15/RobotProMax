@@ -23,7 +23,7 @@ servo_gap = PWM(Pin(19), freq=50)
 servo_nang_ha = PWM(Pin(21), freq=50)
 
 # SERVO DUOI
-servo_duoi = PWM(Pin(22), freg=50)
+servo_duoi = PWM(Pin(22), freq=50)
 
 
 # ==================================================
