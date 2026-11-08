@@ -14,13 +14,16 @@ IN1 = Pin(26, Pin.OUT)
 IN2 = Pin(27, Pin.OUT)
 
 # SERVO DE
-servo_de = PWM(Pin(13), freq=50)
+servo_de = PWM(Pin(18), freq=50)
 
 # SERVO GAP
-servo_gap = PWM(Pin(12), freq=50)
+servo_gap = PWM(Pin(19), freq=50)
 
 # SERVO NANG HA
-servo_nang_ha = PWM(Pin(14), freq=50)
+servo_nang_ha = PWM(Pin(21), freq=50)
+
+# SERVO DUOI
+servo_duoi = PWM(Pin(22), freg=50)
 
 
 # ==================================================
